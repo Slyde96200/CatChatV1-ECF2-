@@ -1,10 +1,10 @@
-#CatChatV1-ECF2-
+# CatChatV1-ECF2-
 
 
 
-#Here is CatChatV1!
+Here is CatChatV1!
 
-#This is a first version of a forum dedicated to cats!
+This is a first version of a forum dedicated to cats!
 
 #Connection -- OK ---
 #Registration -- OK---
@@ -24,15 +24,9 @@
 
 
 #--------------------------------------------------------------------------------------------------------------------------
+Voici CatChatV1 ! 
 
-
-# CatChatV1-ECF2-
-
-
-
-#Voici CatChatV1 ! 
-
-#C'est une première version d'un forum dédié au chats ! 
+C'est une première version d'un forum dédié au chats ! 
 
 #Connexion -- OK
 #Inscription -- OK
