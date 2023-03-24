@@ -6,7 +6,7 @@
 
 #This is a first version of a forum dedicated to cats!
 
-#Connection -- OK
+#Connection -- OK <br>
 #Registration -- OK
 #Validation input -- OK
 #Display account information -- to be finalized
