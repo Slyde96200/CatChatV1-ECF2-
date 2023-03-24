@@ -6,21 +6,21 @@
 
 #This is a first version of a forum dedicated to cats!
 
-#Connection -- OK <br>
-#Registration -- OK
-#Validation input -- OK
-#Display account information -- to be finalized
-#Change account for user -- OK
-#Topic theme creation -- NO
-#Create topic -- OK
-#Edit topic for user -- OK
-#Deletion of topic for the user -- OK
-#Reply to topic -- OK
-#Modification of the answer (for the poster of the answer) -- OK
-#Delete the answer (for the poster of the answer) -- OK
-#Topic date -- OK
-#Number of replies per topic -- OK
-#User avatar -- OK
+#Connection -- OK ---
+#Registration -- OK---
+#Validation input -- OK---
+#Display account information -- to be finalized---
+#Change account for user -- OK---
+#Topic theme creation -- NO---
+#Create topic -- OK---
+#Edit topic for user -- OK---
+#Deletion of topic for the user -- OK---
+#Reply to topic -- OK---
+#Modification of the answer (for the poster of the answer) -- OK---
+#Delete the answer (for the poster of the answer) -- OK---
+#Topic date -- OK---
+#Number of replies per topic -- OK---
+#User avatar -- OK---
 
 
 #--------------------------------------------------------------------------------------------------------------------------
