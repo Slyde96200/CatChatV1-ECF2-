@@ -6,7 +6,15 @@ Here is CatChatV1!
 
 This is a first version of a forum dedicated to cats!
 
-#Connection -- OK ---
+#UML Blueprint --OK---
+
+#MVC STRUCTURE --OK---
+
+#versionning git --OK---
+
+#0 ERROR/ALERT SPOTTED --OK---
+
+#Connection -- OK---
 
 #Registration -- OK---
 
@@ -44,34 +52,42 @@ Voici CatChatV1 !
 
 C'est une première version d'un forum dédié au chats ! 
 
-#Connexion -- OK
+#Diagramme UML --OK---
 
-#Inscription -- OK
+#Structure MVC -- OK--- 
 
-#Validation input -- OK
+versionning git --OK---
 
-#Affichage information compte -- a finaliser
+# ERREUR / ALERTES DETECTÉ --OK---
 
-#Modification du compte pour l'utilisateur -- OK
+#Connexion -- OK---
 
-#Création de thème de topic  -- NON
+#Inscription -- OK---
 
-#Création de topic -- OK
+#Validation input -- OK---
 
-#Modification de topic pour l'utilisateur -- OK
+#Affichage information compte -- a finaliser---
 
-#Suppression de topic pour l'utilisateur -- OK
+#Modification du compte pour l'utilisateur -- OK---
 
-#Réponse au topic -- OK
+#Création de thème de topic  -- NON---
 
-#Modification de la réponse ( pour le posteur de la reponse) -- OK
+#Création de topic -- OK---
 
-#Suppression de la réponse ( pour le posteur de la reponse) -- OK
+#Modification de topic pour l'utilisateur -- OK---
 
-#Date de topic -- OK
+#Suppression de topic pour l'utilisateur -- OK---
 
-#Nombre de réponse par topic -- OK
+#Réponse au topic -- OK---
 
-#Avatar d'utilisateur -- OK
+#Modification de la réponse ( pour le posteur de la reponse) -- OK---
+
+#Suppression de la réponse ( pour le posteur de la reponse) -- OK---
+
+#Date de topic -- OK---
+
+#Nombre de réponse par topic -- OK---
+
+#Avatar d'utilisateur -- OK---
 
 #Ajouter des images  -- A completer ( j'ai mis en commentaire la portion de code qui permet d'ajouter des images , car elle devenait obligatoire pour créer un topic, je ferait une deuxième version de ce code)
