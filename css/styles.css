@@ -1,0 +1,358 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,500;1,400&display=swap');
+
+/**
+ * PRESENTATION GENERALE 
+ * html, body, header, main et footer
+ */
+html {
+  font-size: 62.5%;
+  --primary: #103d7f;
+  --secondary: #6da8ff;
+  --background: #37547f;
+  --danger: #8c2c20;
+  --fontOnBackground: white;
+  --text: #333;
+  --ecart: 3em;
+  --baseSize: 2rem;
+  --headingFamily: 'Ubuntu', sans-serif;
+  --textFamily: "Merriweather";
+}
+
+img#mon-image-affiche {
+  border-radius: 25px;
+  opacity: 97%;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  color: var(--text);
+  background: #F5F5F5;
+}
+
+* {
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--textFamily), -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--headingFamily), var(--textFamily), -apple-system,
+    BlinkMacSystemFont, "Segoe UI", Oxygen, Ubuntu, Cantarell, "Open Sans",
+    "Helvetica Neue", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: var(--secondary);
+}
+
+.ri-gallery-fill:before {
+  content: "\eda4";
+  margin-top: 1px;
+}
+
+body {
+  font-size: var(--baseSize);
+}
+
+header {
+  background-color: #F5F5F5;
+  margin-bottom: var(--ecart);
+  -webkit-box-shadow: 0px 11px 13px -10px #0000006d;
+  box-shadow: 0px 11px 13px -10px #0000006d;
+}
+
+header div,
+main {
+  width: 70%;
+  margin: 0 auto;
+}
+
+header div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding: calc(var(--ecart) / 1.5) 0; */
+}
+
+header img {
+  color: var(--text);
+  height: 120px;
+  width: 230px;
+  margin-left: -240px;
+}
+
+header nav a {
+  text-decoration: none;
+  padding: 0 10px;
+  border-right: 1px solid rgba(0, 0, 0, 0.2);
+  color: var(--text);
+}
+
+header nav a:last-child {
+  border-right: none;
+}
+
+i {
+  vertical-align: middle;
+}
+
+div.alerts {
+  padding: calc(var(--ecart) / 4);
+  color: var(--fontOnBackground);
+  border-radius: 5px;
+  margin-bottom: calc(var(--ecart) / 4);
+}
+
+div.alerts.success {
+  background-color: var(--secondary);
+}
+
+div.alerts.errors {
+  background-color: var(--danger);
+}
+
+div.alerts p {
+  padding: 0;
+  margin: calc(var(--ecart) / 4) 0;
+}
+
+footer {
+  padding: 2px;
+  background-color: #3dd8d3;
+  text-align: center;
+  margin-top: 570px;
+  color: var(--fontOnBackground);
+}
+
+/**
+ * FORMULAIRES 
+ */
+div.form-row {
+  display: flex;
+  align-items: top;
+  margin-bottom: calc(var(--ecart) / 2);
+}
+
+div.form-row label {
+  width: 25%;
+}
+
+div.form-row input,
+div.form-row textarea,
+div.form-row select {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #eee;
+  font-family: var(--headingFamily);
+  font-size: 2rem;
+}
+
+form button[type="submit"] {
+  background-color: var(--text);
+  color: var(--fontOnBackground);
+  padding: 10px 25px;
+  border: none;
+  border-radius: 8px;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.form-supp {
+  width: max-content;
+  display: contents;
+}
+
+form {
+ background-color: #3dd8d3;
+  padding: calc(var(--ecart) / 2);
+  border-radius: 10px;
+  color: var(--fontOnBackground);
+  opacity: 94%;
+}
+
+form::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/**
+ * PAGE D'ACCUEIL (STATUS)
+ */
+section#status article,
+section#comments div.comment {
+  display: flex;
+  align-items: top;
+  margin-bottom: var(--ecart);
+}
+
+section#comments div.comment {
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: calc(var(--ecart) / 4);
+  margin-bottom: calc(var(--ecart) / 4);
+}
+
+section#comments h4 {
+  margin: 0;
+}
+
+section#comments blockquote {
+  margin: 1em 0 0 0;
+  padding: 0 0 0 1em;
+  border-left: 5px solid #eee;
+}
+
+section#comments div.comment figure {
+  width: 70px;
+  padding: 5px 20px 0 0;
+  margin: 0;
+}
+
+section#status article figure {
+  margin: 0;
+  padding: 5px 20px 0 0;
+  width: 140px;
+}
+
+section#comments div.comment div.details {
+  width: 90%;
+}
+
+section#status article div.details {
+  width: 85%;
+}
+
+img.avatar {
+  width: 100%;
+  border-radius: 100%;
+  box-shadow: 4px 6px 10px 0px rgba(0, 0, 0, 0.2);
+  opacity: 80%;
+  min-width: 77%;
+
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table td,
+table th {
+  padding: 5px;
+}
+
+table th {
+  background-color: var(--background);
+  color: var(--fontOnBackground);
+  text-align: left;
+  font-family: var(--headingFamily);
+  font-size: 2.5rem;
+}
+
+table td {
+  border-bottom: 1px solid #eee;
+}
+
+table tr:hover td {
+  background-color: #eee;
+}
+
+a.special {
+  font-size: 1.5rem;
+  background-color: var(--primary);
+  color: var(--fontOnBackground);
+  padding: 5px 15px;
+  display: inline-block;
+  border-radius: 5px;
+}
+
+a.special.danger {
+  background-color: var(--danger);
+}
+
+/* ----------- MOBILE ----------- */
+
+/* Réduit la taille de police pour les petits écrans */
+@media only screen and (max-width: 600px) {
+  html {
+    font-size: 50%;
+  }
+}
+
+/* Centre les images sur les petits écrans */
+@media only screen and (max-width: 400px) {
+  img#mon-image-affiche {
+    margin: 0 auto;
+    display: block;
+  }
+}
+
+/* Réduit l'espacement de l'en-tête sur les petits écrans */
+@media only screen and (max-width: 500px) {
+  header {
+    margin-bottom: var(--ecart) / 2;
+  }
+}
+
+/* Réduit la largeur de l'en-tête sur les petits écrans */
+@media only screen and (max-width: 700px) {
+
+  header div,
+  main {
+    width: 90%;
+  }
+}
+
+/* Réduit la taille de police pour les petits écrans */
+@media only screen and (max-width: 700px) {
+  body {
+    font-size: 1.6rem;
+  }
+}
+
+/* ----------- TABLETTE ----------- */
+
+/* Réduit la taille de police pour les tablettes */
+@media only screen and (min-width: 601px) and (max-width: 800px) {
+  html {
+    font-size: 55%;
+  }
+}
+
+/* ----------- ORDINATEUR ----------- */
+
+/* Rétablit la taille de police par défaut pour les ordinateurs */
+@media only screen and (min-width: 801px) {
+  html {
+    font-size: 62.5%;
+  }
+}
+
+@media screen and (max-width: 1380px) {
+  header img {
+    /* height: 80px; */
+    /* width: 150px; */
+    margin-left: 0;
+    margin-right: 20px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  header img {
+/*     height: 60px;
+    width: 115px; */
+    margin: 0 auto;
+    display: block;
+  }
+}
