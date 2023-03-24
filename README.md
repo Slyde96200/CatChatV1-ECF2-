@@ -56,7 +56,7 @@ C'est une première version d'un forum dédié au chats !
 
 #Structure MVC -- OK--- 
 
-versionning git --OK---
+#Versionning git --OK---
 
 # ERREUR / ALERTES DETECTÉ --OK---
 
