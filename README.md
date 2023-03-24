@@ -36,6 +36,7 @@ This is a first version of a forum dedicated to cats!
 
 #User avatar -- OK---
 
+#Add images -- To be completed (I commented the portion of code that allows you to add images, because it became mandatory to create a topic, I would make a second version of this code)
 
 #--------------------------------------------------------------------------------------------------------------------------
 
@@ -72,3 +73,5 @@ C'est une première version d'un forum dédié au chats !
 #Nombre de réponse par topic -- OK
 
 #Avatar d'utilisateur -- OK
+
+#Ajouter des images  -- A completer ( j'ai mis en commentaire la portion de code qui permet d'ajouter des images , car elle devenait obligatoire pour créer un topic, je ferait une deuxième version de ce code)
