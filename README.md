@@ -58,7 +58,7 @@ C'est une première version d'un forum dédié au chats !
 
 #Versionning git --OK---
 
-# ERREUR / ALERTES DETECTÉ --OK---
+# Erreur / Alertes détectés --OK---
 
 #Connexion -- OK---
 
